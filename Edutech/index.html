@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <title>Edutech</title>
 </head>
-<body onload="loader_func()">
+<body>
     
     <div id="loading">
         <div class="loadingio-spinner-spinner-483bhku9k4e"><div class="ldio-5jdqwromcim">
@@ -132,9 +132,9 @@
     
     <script>
         var preloader = document.getElementById('loading')
-        function loader_func(){
+        document.addEventListener("DOMContentLoaded", ()=>{
             preloader.style.display = 'none';
-        }
+        })
         const ratio = .5
         const options = {
             root: null,
