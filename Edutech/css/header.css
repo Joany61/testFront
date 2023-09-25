@@ -1,0 +1,198 @@
+/***** nav complet *****/
+header{
+    background: #100720;
+    width: 100%;
+    padding-bottom: 90px;
+}
+div#nav {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+div#nav ul {
+    display: grid;
+    grid-template-columns: repeat(6,16.66%);
+}
+header * {
+    color: #fff0ff;
+}
+
+#sliderapr{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.apr a:hover #sliderapr{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#sliderblo{
+    display: none;
+    position: relative;
+    height: 2.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.blo a:hover #sliderblo{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#sliderfaq{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.faq a:hover #sliderfaq{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#slidercur{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.cur a:hover #slidercur{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#slideracc{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 1s ease;
+}
+
+.acc a:hover #slideracc{
+    display: block;
+    transition: all 1s ease;
+}
+
+
+header button {
+    background: #100720;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 12px 22px;
+}
+/***** parti logo ******/
+div#logo a span{
+    position: absolute;
+    font-size: 1.70rem;
+    font-weight: 2000;
+    top: 20px;
+    left: 50px;
+}
+div#logo a img{
+    position: relative;
+    left: 143px;
+    top: 10px;
+}
+/*** parti intro ***/
+div#intro {
+    position: relative;
+    top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+div#intro p{
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    width: 700px;
+    font-size: 2rem;
+    word-wrap: break-word;
+}
+div#intro section button{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+div#intro section button a{
+    font-size: 0.90rem;
+    font-weight: 500;
+}
+div#intro section button#comm{
+    border: none;
+    background: #FA2FB5;
+}
+div#intro section button#comm a{
+    color: #282938;
+}
+div#intro section button#voir {
+    border: none;
+}
+div#intro section img#line-dis{
+    position: absolute;
+    left: 1100px;
+    top: 240px;
+}
+div#intro section img#code-dis{
+    position: absolute;
+    z-index: 3;
+    top: 230px;
+    right: 570px;
+}
+div#intro section img#rect{
+    position: absolute;
+    top: 210px;
+    right: 230px;
+}
+div#intro section img#gran-rect{
+    position: absolute;
+    top: 65px;
+    right: 430px;
+}
+div#intro section img#col{
+    position: absolute;
+    bottom: 155px;
+    right: 440px;
+}
+/*pour le responsive*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+

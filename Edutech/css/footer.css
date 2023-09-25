@@ -1,0 +1,110 @@
+footer{
+    padding-bottom: 40px;
+    height: 100%;
+    margin: 100px 0 0 0;
+    background: #100720;
+}
+div#fr_foot_div{
+    padding: 50px 0 0 0;
+    margin: 0px 300px 0 300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/***** parti logo ******/
+div#logo_foot a span{
+    position: relative;
+    color: #fff0ff;
+    font-size: 1rem;
+    font-weight: bold;
+    left: 47px;
+    top: 10px;
+}
+div#logo_foot a img{
+    position: relative;
+    left: 143px;
+}
+
+/*** parti intro ***/
+div#intro_foot{
+    height: 100%;
+    border-left: 1px solid #fff0ff;
+}
+div#intro_foot p{
+    padding: 0 0 0 40px;
+    color: #fff0ff;
+    font-size: 21px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+/*** parti conclusion***/
+div#conclu p{
+    font-size: 1.2rem;
+    margin: 80px 0 10px 0;
+    color: #B2B3CF;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+/*** parti sousription***/
+div#div_souscript{
+    text-align: center;
+}
+input#inp_sous{
+    height: 40px;
+    border: 1px #83839A solid;
+    border-radius: 80px;
+    margin-right: 20px;
+    background: #100720;
+    color: #fff0ff;
+    padding: 0 0 0 10px;
+}
+div#div_souscript button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 80px;
+    margin-right: 20px;
+    background: #FA2FB5;
+    color: #fff0ff;
+}
+
+/*** responsive***/
+
+@media only screen and (max-width: 1120px){
+    
+    div#div_souscript{
+        display: none;
+    }
+    div#intro_foot p{
+        padding: 0;
+        word-wrap: break-word;
+    }    
+
+    div#fr_foot_div{
+        padding: 50px 0 0 0;
+        margin: 300pxpx 0 300px 0px;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-items: center;
+        justify-content: center;
+    }
+    div#intro_foot{
+        border-left: none;
+        border-top: 1px solid #fff0ff;
+    }
+
+    div#logo_foot a img{
+        position: static;
+    }
+    div#logo_foot a span{
+        position: static;
+        margin: 0 0 0 20px;
+    }
+
+    div#logo_foot a{ 
+        display: grid;
+        grid-template-rows: auto;
+    }
+}

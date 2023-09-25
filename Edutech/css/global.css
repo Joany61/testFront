@@ -1,0 +1,31 @@
+/*style global*/
+*{
+    list-style-type: none;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+}
+/*** ajout de font-family***/
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Mochi_pop;
+    src: url(../fonts/Mochi_pop/MochiyPopOne-Regular.ttf);
+}
+/*** preloading ***/
+#loading{
+    text-align: center;
+    z-index: 100;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #100720 fixed;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Edutech</title>
+</head>
+<body onload="loader_func()">
+    
+    <div id="loading">
+        <div class="loadingio-spinner-spinner-483bhku9k4e"><div class="ldio-5jdqwromcim">
+            <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </div></div>
+    </div>
+    <header>
+        <div id="nav">
+            <div id="logo">
+                <a href="">
+                    <span>Edutech</span>
+                    <img src="./img/Logo.png" alt="" style="width: 110px; height: 55px;">
+                </a>
+            </div>
+            <ul>
+                <li class="acc"><a href="">
+                    Accueil
+                    <div id="slideracc"></div>
+                </a></li>
+                <li class="apr"><a href="">
+                    A propos
+                    <div id="sliderapr"></div>
+                </a></li>
+                <li class="cur"><a href="">
+                    Cursus
+                    <div id="slidercur"></div>
+                </a></li>
+                <li class="faq"><a href="">
+                    FAQ
+                    <div id="sliderfaq"></div>
+                </a></li>
+                <li class="blo"><a href="">
+                    BLOG<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Frame"><path id="Vector" d="M8.33334 4.99992H5.00001C4.55798 4.99992 4.13406 5.17551 3.8215 5.48807C3.50894 5.80063 3.33334 6.22456 3.33334 6.66658V14.9999C3.33334 15.4419 3.50894 15.8659 3.8215 16.1784C4.13406 16.491 4.55798 16.6666 5.00001 16.6666H13.3333C13.7754 16.6666 14.1993 16.491 14.5119 16.1784C14.8244 15.8659 15 15.4419 15 14.9999V11.6666M11.6667 3.33325H16.6667M16.6667 3.33325V8.33325M16.6667 3.33325L8.33334 11.6666" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+                    <div id="sliderblo"></div>
+                </a></li>
+                <li><button><a href="">Login</a></button></li>
+            </ul>
+        </div>
+        <div id="intro">
+            <section>
+                <p class="reveal_1">Transformer l'education grace a l'innovation technologique</p>
+                <button id="comm"><a href="">commencer</a></button>
+                <button id="voir"><a href="">
+                    voir le flux de formations
+                </a></button>
+            </section>
+            <section>
+                <img id="line-dis" class="reveal_2" src="img/Group 2618.png" alt="">
+                <img id="code-dis" class="reveal_3" src="img/Group 2535.png" alt="">
+                <img class="reveal_4" src="img/Illustration.png" style="width: 428; height: 300" alt="">
+                <img class="reveal_4" id="col" src="img/Group 2539.png" alt="">
+                <img class="reveal_4" id="rect" src="img/Rectangle 1328.png" alt="">
+                <img class="reveal_4" id="gran-rect" src="img/Rectangle 1327.png" alt="">
+            </section>
+        </div>
+    </header>
+    <main>
+        <p>
+            Our Success
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, aliquid? Accusantium ab animi voluptatem! Dolorem inventore in saepe dicta? Quas inventore quo error commodi sunt cum optio voluptatem autem molestias?
+        </p>
+        <p id="count_num">
+            <span>
+                <span class="chiffre">15K+</span>
+                <br><span class="lettre">Etudiants</span>
+            </span>
+            <span>
+                <span class="chiffre">75%</span>
+                <br><span class="lettre">Succes total</span>
+            </span>
+            <span>
+                <span class="chiffre">35</span>
+                <br><span class="lettre">Principales questions</span>
+            </span>
+            <span>
+                <span class="chiffre">26</span>
+                <br><span class="lettre">Les experts</span>
+            </span>
+        </p>
+        <div class="contenu reveal_1">
+            <p class="reveal_2">ab</p>
+        </div>
+        <div class="contenu reveal_">
+            <p>dc</p>
+        </div>
+
+        <div class="contenu reveal_">
+            <p>dc</p>
+        </div>
+
+        <div class="contenu reveal_">
+            <p>dc</p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="fr_foot_div">
+            <div id="logo_foot">
+                <a href="">
+                    <img src="img/Logo.png" style="width: 110px; height: 55px;" alt="">
+                    <span>Edutech</span>
+                </a>
+            </div>
+            <div id="intro_foot">
+                <p class="reveal_">Transformer l'education grace a l'innovation technologique</p>
+            </div>
+        </div>
+        <div id="div_souscript">
+            <div id="conclu">
+                <p>Veuillez vous souscrire pour recevoir les dernière nouvelles</p>
+            </div>
+            <label for="subscr"></label>
+            <input type="text" name="subscr" id="inp_sous" placeholder="Your E-mail">
+            <button>souscrire</button>
+        </div>
+    </footer>
+    
+    <script>
+        var preloader = document.getElementById('loading')
+        function loader_func(){
+            preloader.style.display = 'none';
+        }
+        const ratio = .5
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: ratio
+        }
+
+        function handleIntersect(entries, observer){
+            entries.forEach((entry)=>{
+                if(entry.intersectionRatio > ratio){
+                    entry.target.classList.add('reveal-visible')
+                    observer.unobserve(entry.target)
+                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+            })
+        }
+
+        const observer = new IntersectionObserver(handleIntersect, options)
+        document.querySelectorAll('[class*="reveal_"]').forEach((r)=>{
+            observer.observe(r)
+        })
+    </script>
+    
+</body>
+</1html>

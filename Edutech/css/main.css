@@ -1,0 +1,61 @@
+div.contenu{
+    height: 300px;
+    width: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+main{
+    text-align: center;
+}
+
+p#count_num{
+    justify-content: center;
+    display: flex;
+}
+p#count_num span .chiffre{
+    font-weight: 100;
+    color: #136CB5; 
+    font-family: Mochi_pop;
+    font-size: 3.5rem;
+    margin: 0 30px 0 30px;
+}
+p#count_num span .lettre{
+    display: inline-block;
+    width: 150px;
+    word-wrap: break-word;
+    position: relative;
+    bottom: 10px;
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/*** Apparition au defilement***/
+[class*="reveal_"]{
+    opacity: 0;
+    transform: translateX(-30px);
+}
+.reveal_1{
+    transition-delay: 0.0s;
+}
+.reveal_2{
+    transition-delay: 1s;
+}
+.reveal_3{
+    transition-delay: 2s;
+}
+.reveal_4{
+    transition-delay: 3s;
+}
+.reveal-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s ease all;
+}
