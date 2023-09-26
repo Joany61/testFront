@@ -22,6 +22,7 @@ body{
 }
 /*** preloading ***/
 #loading{
+    margin: auto;
     text-align: center;
     z-index: 100;
     position: fixed;
