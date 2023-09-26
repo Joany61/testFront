@@ -1,11 +1,98 @@
-a:hover, button:hover{
+/*** parti header***/
+a:hover, button:hover, #button_log:hover{
     cursor: pointer;
 }
 
-header #nav button:hover {
+header #nav #button_log:hover {
     color: #100720;
     background-color: #fff0ff;
     transition: all 0.5s ease;
+}
+
+
+#sliderapr{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.apr a:hover #sliderapr{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#sliderblo{
+    display: none;
+    position: relative;
+    height: 2.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.blo a:hover #sliderblo{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#sliderfaq{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.faq a:hover #sliderfaq{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#slidercur{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 0.5s ease;
+}
+
+.cur a:hover #slidercur{
+    display: block;
+    transition: all 0.5s ease;
+}
+
+#slideracc{
+    display: none;
+    position: relative;
+    height: 1.5px;
+    background-color: #fff0ff;
+    border-radius: 20px;
+    width: 50.5%;
+    z-index: 12;
+    top: 20px;
+    transition: all 1s ease;
+}
+
+.acc a:hover #slideracc{
+    display: block;
+    transition: all 1s ease;
 }
 
 
@@ -13,5 +100,5 @@ header #nav button:hover {
 #first_intro img:hover{
     box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.726);
     border-radius: 18px;
-    transition: all 0.5s ease;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }

@@ -16,98 +16,20 @@ header * {
     color: #fff0ff;
 }
 
-#sliderapr{
-    display: none;
-    position: relative;
-    height: 1.5px;
-    background-color: #fff0ff;
-    border-radius: 20px;
-    width: 50.5%;
-    z-index: 12;
-    top: 20px;
-    transition: all 0.5s ease;
-}
-
-.apr a:hover #sliderapr{
-    display: block;
-    transition: all 0.5s ease;
-}
-
-#sliderblo{
-    display: none;
-    position: relative;
-    height: 2.5px;
-    background-color: #fff0ff;
-    border-radius: 20px;
-    width: 50.5%;
-    z-index: 12;
-    top: 20px;
-    transition: all 0.5s ease;
-}
-
-.blo a:hover #sliderblo{
-    display: block;
-    transition: all 0.5s ease;
-}
-
-#sliderfaq{
-    display: none;
-    position: relative;
-    height: 1.5px;
-    background-color: #fff0ff;
-    border-radius: 20px;
-    width: 50.5%;
-    z-index: 12;
-    top: 20px;
-    transition: all 0.5s ease;
-}
-
-.faq a:hover #sliderfaq{
-    display: block;
-    transition: all 0.5s ease;
-}
-
-#slidercur{
-    display: none;
-    position: relative;
-    height: 1.5px;
-    background-color: #fff0ff;
-    border-radius: 20px;
-    width: 50.5%;
-    z-index: 12;
-    top: 20px;
-    transition: all 0.5s ease;
-}
-
-.cur a:hover #slidercur{
-    display: block;
-    transition: all 0.5s ease;
-}
-
-#slideracc{
-    display: none;
-    position: relative;
-    height: 1.5px;
-    background-color: #fff0ff;
-    border-radius: 20px;
-    width: 50.5%;
-    z-index: 12;
-    top: 20px;
-    transition: all 1s ease;
-}
-
-.acc a:hover #slideracc{
-    display: block;
-    transition: all 1s ease;
-}
-
-
-header button {
+header #button_log {
     background: #100720;
-    border: 1px solid ;
+    border: 1px solid #fff0ff;
     border-radius: 5px;
     padding: 12px 22px;
 }
+
+header button{
+    background: #100720;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 12px 22px;
+}
+
 /***** parti logo ******/
 div#logo a span{
     position: absolute;
@@ -120,6 +42,13 @@ div#logo a img{
     position: relative;
     left: 143px;
     top: 10px;
+}
+/*** parti icon dropdown***/
+header #icon_resp{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
 }
 /*** parti intro ***/
 div#intro {

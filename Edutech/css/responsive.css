@@ -1,3 +1,53 @@
-@media only screen and (max-width: 1081px){
-    
+@media only screen and (max-width: 817px){
+
+    header #nav{
+        grid-template-columns: auto;
+        justify-content: space-between;
+    }
+
+    header #nav ul{
+        z-index: 5000;
+        background-color: #100720;
+        display: block;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        transform: translateX(1000px);
+        transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    header #nav ul li{
+        margin-top: 20px;
+        display: block;
+        line-height: 30px;
+    }
+    header #nav ul.show{
+        overflow-y: hidden;
+        height: 100%;
+        width: 100%;
+        transform: translateX(0);
+        transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    header #nav #logo span{
+        font-size: 20.2px;
+    }
+    header #nav #logo img{
+        width: 70px!important; 
+        height: 40px!important;
+        left: 120px;
+    }
+    header #icon_resp{
+        display: block;
+    }
+
+    header #deus_sect{
+        display: none;
+    }
+    div#intro section button{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    div#intro p{
+        font-size: 1.3rem;
+    }
 }
