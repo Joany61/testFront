@@ -1,8 +1,7 @@
-main{
-    text-align: center;
-}
+
 
 p#count_num{
+    margin-bottom: 70px;
     justify-content: center;
     display: flex;
 }
@@ -14,6 +13,7 @@ p#count_num span .chiffre{
     margin: 0 30px 0 30px;
 }
 p#count_num span .lettre{
+    text-align: center;
     display: inline-block;
     width: 150px;
     word-wrap: break-word;
@@ -34,8 +34,8 @@ div.contenu img{
 div.contenu{
     margin: auto;
     width: 1000px;
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -44,11 +44,11 @@ div.contenu #vicepres_profile{
     grid-template-columns: auto auto;
 }
 
-div#list_cours{
+div.list_cours{
     display: grid;
     grid-template-columns: auto auto auto;
 }
-div#list_cours img{
+div.list_cours img{
     width: 251px;
     height: 127px;
 }
@@ -58,7 +58,7 @@ div.react{
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
 }
-#list_cours .react img{
+.list_cours .react img{
     width: 18px;
     height: 18px;
 }

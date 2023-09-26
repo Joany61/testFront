@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animation.css">
     <title>Edutech</title>
 </head>
 <body>
@@ -48,7 +49,7 @@
                     BLOG<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="Frame"><path id="Vector" d="M8.33334 4.99992H5.00001C4.55798 4.99992 4.13406 5.17551 3.8215 5.48807C3.50894 5.80063 3.33334 6.22456 3.33334 6.66658V14.9999C3.33334 15.4419 3.50894 15.8659 3.8215 16.1784C4.13406 16.491 4.55798 16.6666 5.00001 16.6666H13.3333C13.7754 16.6666 14.1993 16.491 14.5119 16.1784C14.8244 15.8659 15 15.4419 15 14.9999V11.6666M11.6667 3.33325H16.6667M16.6667 3.33325V8.33325M16.6667 3.33325L8.33334 11.6666" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
                     <div id="sliderblo"></div>
                 </a></li>
-                <li><button><a href="">Login</a></button></li>
+                <li><a href=""><button>Login</button></a></li>
             </ul>
         </div>
         <div id="intro">
@@ -92,7 +93,7 @@
                 <br><span class="lettre">Les experts</span>
             </span>
         </p>
-        <div class="contenu reveal_1">
+        <div class="contenu reveal_1" id="first_intro">
             <p class="reveal_2" style="margin-right: 50px;">
                 <span style="font-size: 1.7rem; color: #2F327D;">Everything you can do in physical classroom, <span style="color: #FA2FB5;">you can do with Edutech</span></span>
                 <br>EduTechX’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.
@@ -117,50 +118,51 @@
                 </div>
             </div>
         </div>
-        <div class="contenu reveal_" style="margin-top: 40px;">
-            <div style="font-size: 1.4rem; font-weight: bolder;">Voir les cours suggérés</div>
-            <div><span style="margin-right: 40px;">Catégorie</span><span style="background: #FA2FB5; padding: 10px 30px 10px 30px; border-radius: 7px;">Voir Tout<a href=""></a></span></div>
-        </div>
-        <div class="contenu reveal_">
-            <div id="list_cours">
-                <figure>
-                    <img src="img/unsplash_m_HRfLhgABo.png" alt="">
-                    <figcaption>
-                        <span style="font-size: 1.2rem;">Programmation Web</span>
-                        <br><span style="font-size: .9rem;">Lorem ipsum</span>
-                        <div class="react">
-                            <img src="img/Frame3.svg" alt="">
-                            <img src="img/Frame2.svg" alt="">
-                            <img src="img/Frame1.svg" alt="">
-                        </div>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="img/pexels-lukas-590016 1.png" alt="">
-                    <figcaption>
-                        <span style="font-size: 1.2rem;">Digital Marketing 101</span>
-                        <br><span style="font-size: .9rem;">Lorem ipsum</span>
-                        <div class="react">
-                            <img src="img/Frame3.svg" alt="">
-                            <img src="img/Frame2.svg" alt="">
-                            <img src="img/Frame1.svg" alt="">
-                        </div>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="img/pexels-olya-kobruseva-5561923 1.png" alt="">
-                    <figcaption>
-                        <span style="font-size: 1.2rem;">Data Science</span>
-                        <br><span style="font-size: .9rem;">Lorem ipsum</span>
-                        <div class="react">
-                            <img src="img/Frame3.svg" alt="">
-                            <img src="img/Frame2.svg" alt="">
-                            <img src="img/Frame1.svg" alt="">
-                        </div>
-                    </figcaption>
-                </figure>
+        <div class="cont_list" style="z-index: 100;">
+            <div class="contenu reveal_" style="margin-top: 40px;">
+                <div style="font-size: 1.4rem; font-weight: bolder;">Voir les cours suggérés</div>
+                <div style="margin-left: 150px;"><span style="margin-right: 30px;">Catégorie</span><span style="background: #FA2FB5; padding: 10px 30px 10px 30px; border-radius: 7px;">Voir Tout<a href=""></a></span></div>
             </div>
-        </div>
+            <div class="contenu reveal_">
+                <div class="list_cours" style="height: 230px; overflow-y: hidden;">
+                    <figure>
+                        <img src="img/unsplash_m_HRfLhgABo.png" alt="">
+                        <figcaption>
+                            <span style="font-size: 1.2rem;">Programmation Web</span>
+                            <br><span style="font-size: .9rem;">Lorem ipsum</span>
+                            <div class="react">
+                                <img src="img/Frame3.svg" alt="">
+                                <img src="img/Frame2.svg" alt="">
+                                <img src="img/Frame1.svg" alt="">
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/pexels-lukas-590016 1.png" alt="">
+                        <figcaption>
+                            <span style="font-size: 1.2rem;">Digital Marketing 101</span>
+                            <br><span style="font-size: .9rem;">Lorem ipsum</span>
+                            <div class="react">
+                                <img src="img/Frame3.svg" alt="">
+                                <img src="img/Frame2.svg" alt="">
+                                <img src="img/Frame1.svg" alt="">
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="img/pexels-olya-kobruseva-5561923 1.png" alt="">
+                        <figcaption>
+                            <span style="font-size: 1.2rem;">Data Science</span>
+                            <br><span style="font-size: .9rem;">Lorem ipsum</span>
+                            <div class="react">
+                                <img src="img/Frame3.svg" alt="">
+                                <img src="img/Frame2.svg" alt="">
+                                <img src="img/Frame1.svg" alt="">
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
     </main>
 
     <footer>
@@ -190,7 +192,7 @@
         document.addEventListener("DOMContentLoaded", ()=>{
             preloader.style.display = 'none';
         })
-        const ratio = .5
+        const ratio = .50
         const options = {
             root: null,
             rootMargin: '0px',

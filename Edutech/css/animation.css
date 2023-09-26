@@ -1,0 +1,17 @@
+a:hover, button:hover{
+    cursor: pointer;
+}
+
+header #nav button:hover {
+    color: #100720;
+    background-color: #fff0ff;
+    transition: all 0.5s ease;
+}
+
+
+/*** parti main***/
+#first_intro img:hover{
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.726);
+    border-radius: 18px;
+    transition: all 0.5s ease;
+}
