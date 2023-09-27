@@ -1,6 +1,9 @@
 @media only screen and (max-width: 817px){
-
+    header{
+        height: 100%;
+    }
     header #nav{
+        height: 100%;
         grid-template-columns: auto;
         justify-content: space-between;
     }
