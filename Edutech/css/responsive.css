@@ -1,4 +1,7 @@
-@media  screen and (max-width: 1320px) {
+@media screen and (max-width: 1320px) {
+    body{
+        overflow-x: hidden;
+    }
     header #deus_sect{
         display: none;
     }
@@ -21,6 +24,10 @@
 }
 @media only screen and (max-width: 817px){
 /*** parti header***/
+    header{
+        width: 100%;
+        overflow-y: hidden;
+    }
     header #nav{
         grid-template-columns: auto;
         justify-content: space-between;

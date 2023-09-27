@@ -74,37 +74,31 @@ div#div_souscript button{
 
 @media only screen and (max-width: 1120px){
     
+    div#fr_foot_div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 50px 0 0 0;
+        margin: 0;
+    }
+
     div#div_souscript{
         display: none;
     }
     div#intro_foot p{
-        padding: 0;
+        font-size: 17px;
+        padding: 0 0 0 10px;
         word-wrap: break-word;
     }    
 
-    div#fr_foot_div{
-        padding: 50px 0 0 0;
-        margin: 300pxpx 0 300px 0px;
-        display: grid;
-        grid-template-columns: 100%;
-        justify-items: center;
-        justify-content: center;
-    }
-    div#intro_foot{
-        border-left: none;
-        border-top: 1px solid #fff0ff;
-    }
-
     div#logo_foot a img{
-        position: static;
+        position: fixed;
+        width: 60px!important; 
+        height: 30px!important;
     }
     div#logo_foot a span{
-        position: static;
-        margin: 0 0 0 20px;
+        position: relative;
+        margin: 0 0 0 0px;
     }
 
-    div#logo_foot a{ 
-        display: grid;
-        grid-template-rows: auto;
-    }
 }
