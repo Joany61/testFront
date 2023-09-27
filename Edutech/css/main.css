@@ -68,6 +68,11 @@ div.react{
     opacity: 0;
     transform: translateX(-30px);
 }
+.reveal_p{
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .reveal_1{
     transition-delay: 0.0s;
 }

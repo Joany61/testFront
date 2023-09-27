@@ -1,9 +1,27 @@
-@media only screen and (max-width: 817px){
-    header{
-        height: 100%;
+@media  screen and (max-width: 1320px) {
+    header #deus_sect{
+        display: none;
     }
+    div#intro {
+        position: relative;
+        top: 40px;
+        display: grid;
+        grid-template-columns: auto!important;
+    }
+
+    div#intro section button{
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    div#intro p{
+        font-size: 1.3rem;
+    }
+
+}
+@media only screen and (max-width: 817px){
+/*** parti header***/
     header #nav{
-        height: 100%;
         grid-template-columns: auto;
         justify-content: space-between;
     }
@@ -16,7 +34,7 @@
         height: 100%;
         width: 100%;
         transform: translateX(1000px);
-        transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition: 0.5s ease-in-out;
     }
     header #nav ul li{
         margin-top: 20px;
@@ -28,7 +46,7 @@
         height: 100%;
         width: 100%;
         transform: translateX(0);
-        transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition: 0.5s ease-in-out;
     }
     header #nav #logo span{
         font-size: 20.2px;
@@ -45,6 +63,13 @@
     header #deus_sect{
         display: none;
     }
+    div#intro {
+        position: relative;
+        top: 40px;
+        display: grid;
+        grid-template-columns: auto!important;
+    }
+
     div#intro section button{
         position: relative;
         top: 30px;
@@ -52,5 +77,25 @@
     }
     div#intro p{
         font-size: 1.3rem;
+    }
+
+
+    /*** parti main ***/
+    main{
+        font-size: 10px;
+    }
+
+    main #first_intro{
+        text-align: center;
+        z-index: 10!important;
+        display: flex;
+        justify-content: center;
+    }
+    main #first_intro p{
+        z-index: 0;
+        display: none;
+    }
+    main .list_cours{
+        grid-template-columns: auto!important;
     }
 }
