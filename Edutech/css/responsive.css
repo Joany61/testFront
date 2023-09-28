@@ -1,5 +1,5 @@
-@media screen and (max-width: 1320px) {
-    body{
+@media all and (max-width: 1320px) {
+    html, body{
         overflow-x: hidden;
     }
     header #deus_sect{
@@ -22,7 +22,7 @@
     }
 
 }
-@media only screen and (max-width: 817px){
+@media all and (max-width: 817px){
 /*** parti header***/
     header{
         width: 100%;

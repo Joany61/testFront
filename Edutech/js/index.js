@@ -9,11 +9,14 @@ document.getElementById('icon_resp').addEventListener("click", () =>{
     if (ind == 0){
         document.getElementById('img_icon_resp').setAttribute('src','img/close_FILL0_wght400_GRAD0_opsz24.svg');
         document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+        document.getElementsByTagName('html')[0].style.overflowY = 'hidden'
         ind = 1;
     }
     else if(ind == 1) {
         document.getElementById('img_icon_resp').setAttribute('src','img/menu_FILL0_wght400_GRAD0_opsz24.svg');
         document.getElementsByTagName('body')[0].style.overflowY = 'auto'
+        document.getElementsByTagName('html')[0].style.overflowY = 'auto'
+        document.getElementById('ul_nav').style.overflow = 'hidden'
         ind = 0;
     }
 })
